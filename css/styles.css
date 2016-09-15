@@ -5,7 +5,6 @@ Blue-Green: #128185
 
 body {
      margin-top: 60px;
-     outline: solid red 1px;
      font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -119,6 +118,10 @@ h1, strong {
 
 hr {
      border: 1px solid #000;
+}
+
+.report-summary {
+     border-right: 2px solid #128185;
 }
 
 .footer > .container {
