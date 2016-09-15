@@ -120,8 +120,12 @@ hr {
      border: 1px solid #000;
 }
 
-.report-summary {
+.report-summary, .resources-info {
      border-right: 2px solid #128185;
+}
+
+.padding-right {
+     padding-right: 15px;
 }
 
 .footer > .container {
