@@ -1,0 +1,121 @@
+/*
+Gold: #F4B931
+Blue-Green: #128185
+*/
+
+body {
+     margin-top: 60px;
+     outline: solid red 1px;
+}
+
+
+.navbar {
+     border-radius: 0px;
+     color: #fff;
+}
+
+.navbar-default {
+     background-color: #128185;
+     border-color: #176a6d;
+     margin-top: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+     background-color: #598e90;
+     color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #598e90;
+    color: #fff;
+}
+
+.navbar-form>.form-control{
+     border-radius: 20px;
+     margin-right: 5px;
+}
+
+#mobile-button {
+     color: #fff;
+     font-size: 16px;
+     font-weight: bold;
+     background-color: #F4B931;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #F4B931;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #128185;
+}
+
+@media screen and (max-width: 767px) {
+     .navbar-default {
+          margin-top: 0px;
+     }
+     .navbar-default .container {
+         padding-bottom: 0px;
+         min-height: 100%;
+     }
+
+     .navbar-form>#mobile-button {
+          margin: 15px 10px;
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold;
+          background-color: #F4B931;
+     }
+
+
+     .navbar-form>.form-control {
+          width: 400px;
+          border-radius: 20px;
+          margin-left: 10px;
+     }
+}
+
+@media screen and (max-width: 360px) {
+     .navbar-brand {
+          font-size: 16px;
+     }
+}
+
+@media screen and (max-width: 360px) {
+     .navbar-brand {
+          font-size: 14px;
+     }
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
