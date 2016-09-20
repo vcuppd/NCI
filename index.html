@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <meta name="description" content="Virginia’s National Core Indicators Project gathers information from people with disabilities, their families, and providers.">
     <meta name="author" content="Danielle J Moss - Web Developer - Partnership for People with Disabilities">
     <script type="text/javascript" src="//www.pubapps.vcu.edu/identity/widgets/branding/black/responsive/js/vcubranding-black-1.0.js"></script>
@@ -28,9 +28,9 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll"  data-target="#navigation">
      <!-- Navigation -->
-     <nav class="navbar navbar-default">
+     <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
               <!-- Site name and mobile menu -->
               <div class="navbar-header">
@@ -40,7 +40,10 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#top">National Core Indicatiors in Virginia</a>
+                <a class="navbar-brand" href="#top"><img id="nav-image" src="img/nci-logo-square.png" class="img-responsive pull-left" alt="">
+                National Core Indicatiors in Virginia
+
+                </a>
               </div>
 
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,14 +54,12 @@
                      <li><a href="#reports">Reports</a></li>
                      <li><a href="#resources">Resources</a></li>
                      <li><a href="#contact">Contact</a></li>
-                     <li>
-                         <form class="navbar-form" role="search">
-                            <!-- <div class="form-group"> -->
+                     <!-- <li>
+                         <form method="get" class="navbar-form" role="search" action="http://www.vcu.edu/partnership/nci">
                               <input type="text" class="form-control" placeholder="Search">
-                            <!-- </div> -->
                             <button id="mobile-button" type="submit" class="btn btn-default btn-sm">Submit</button>
                          </form>
-                     </li>
+                     </li> -->
                 </ul>
 
 
@@ -68,7 +69,7 @@
      <!-- END Navigation -->
 
      <!-- Header -->
-     <div class="container">
+     <div id="top" class="container">
           <div class="row">
                <div class="col-md-4">
                     <img src="img/nci_logo.jpg" class="img-responsive center-block" alt="Logo for the National Core Indicatiors in Virginia Program">
@@ -90,6 +91,7 @@
                     <h1>Welcome</h1>
 
                     <p>Virginia’s National Core Indicators Project gathers information from people with disabilities, their families, and providers. Welcome to our website that tells you more about this project and what we have learned about supports and services in Virginia. This initiative is one way that Virginia is examining quality and provides a means to track progress and changes in systems of support for people with intellectual and developmental disabilities.</p>
+
                </div>
           </div>
      </div>
@@ -97,7 +99,7 @@
      <!-- END Welcome -->
 
      <!-- About the Project -->
-     <div class="container">
+     <div id="about" class="container">
           <div class="row">
                <div class="col-md-12">
                     <h1>About the Project</h1>
@@ -113,6 +115,8 @@
                     <p><a href="docs/nciBrochure.pdf" target="_blank"><strong>NCI Brochure</strong></a> is mailed to people with disabilities and their families when they are selected to participate in the face-to-face interview. It includes information about what will happen during the interview.</p>
 
                     <p><a href="docs/2015ProviderInfo.docx" target="_blank"><strong>Information for Providers </strong></a>explains why it is essential for all providers to understand the importance of participating in NCI and to encourage and assist with participation.</p>
+
+                    <p><a href="#top">Return to top</a></p>
                </div>
           </div>
      </div>
@@ -120,7 +124,7 @@
      <!-- END About the Project -->
 
      <!-- Reports -->
-     <div class="container">
+     <div id="reports" class="container">
           <div class="row">
                <div class="col-md-12">
                     <h1>National Core Indicators Summary Reports for Virginia</h1>
@@ -142,11 +146,11 @@
                          <div class="col-md-4 report-summary text-center">
                               <a href="docs/virginia_national_comparison_03012016.pdf" target="_blank"><strong>2015 Comparison of Virginia Data with <br>National Data 2014 and 2015</strong></a>
                          </div>
-                         <div class="col-md-4 text-center">
+                         <div class="col-md-4 text-center report-summary">
                               <a href="docs/nci_2014_consumer_survey_summary_infographics_final.pdf" target="_blank"><strong>2014 Adult Consumer <br>Survey Summary Report</strong></a>
                          </div>
                     </div>
-
+               <p><a href="#top">Return to top</a></p>
                </div>
           </div>
      </div>
@@ -154,7 +158,7 @@
      <!-- END Reports -->
 
      <!-- Resources -->
-     <div class="container">
+     <div id="resources" class="container">
           <div class="row">
                <div class="col-md-12">
                     <h1>Resources and Other Information</h1>
@@ -167,24 +171,115 @@
 
                     <p>
                          <ul class="list-inline text-center">
-                              <li class="resources-info">National Core Indicators <br>
-                                   <a href="http://www.nationalcoreindicators.org/" target="_blank" class="padding-right"><strong>nationalcoreindicators.org</strong></a>
+                              <li class="resources-info">
+                                   <a href="http://www.nationalcoreindicators.org/" target="_blank" class="padding-right">
+                                        <strong>National Core Indicators <br>
+                                                nationalcoreindicators.org
+                                   </a>
+                                        </strong>
                               </li>
                               <li class="resources-info">
-                                   Virginia State Reports <br>
-                                   <a href="http://www.nationalcoreindicators.org/states/VA/" target="_blank" class="padding-right"><strong>nationalcoreindicators.org/states/VA</strong></a>
+                                   <a href="http://www.nationalcoreindicators.org/states/VA/" target="_blank" class="padding-right">
+                                        <strong>Virginia State Reports <br>
+                                                nationalcoreindicators.org/states/VA
+                                   </a>
+                                        </strong>
                               </li>
-                              <li>
-                                   Person Centered Practices <br>
-                                   <a href="http://www.personcenteredpractices.org/" target="_blank"><strong>www.personcenteredpractices.org</strong></a>
+                              <li class="resources-info">
+                                   <a href="http://www.personcenteredpractices.org/" target="_blank">
+                                        <strong>Person Centered Practices <br>
+                                                www.personcenteredpractices.org
+                                   </a>
+                                        </strong>
                               </li>
                          </ul>
                     </p>
+                    <p><a href="#top">Return to top</a></p>
                </div>
           </div>
      </div>
      <hr>
      <!-- END Resources -->
+
+     <!-- Contact Us -->
+     <div id="contact" class="container">
+          <div class="row">
+               <div class="col-md-12">
+                    <h1>Contact Us</h1>
+
+                    <div class="row">
+                         <div class="col-md-4 contact-info">
+                              <h3>General NCI Project Information</h3>
+                              <address>
+                                   <strong>Parthy Dinora</strong> <br>
+                                   <a href="mailto:padinora@vcu.edu">padinora@vcu.edu</a> <br>
+                                   804-827-0016
+                              </address>
+
+                              <address>
+                                   <strong>Tera Yoder</strong> <br>
+                                   <a href="mailto:tyoder@vcu.edu">tyoder@vcu.edu</a> <br>
+                                   804-828-3879
+                              </address>
+
+                         </div>
+                         <div class="col-md-4 contact-info">
+                              <h3>Information About the Surveys</h3>
+                              <address>
+                                   <strong>Kayla Diggs Brody</strong> <br>
+                                   <a href="mailto:diggskg@vcu.edu">diggskg@vcu.edu</a> <br>
+                                   804-828-9599
+                              </address>
+
+                              <address>
+                                   <strong>Dawn Machonis</strong> <br>
+                                   <a href="mailto:dmmachonis@vcu.edu">dmmachonis@vcu.edu</a> <br>
+                                   804-828-1335
+                              </address>
+                         </div>
+                         <div class="col-md-4 contact-info">
+                              <h3>To leave a message for staff members:</h3>
+                              <p>866-647-8547</p>
+                         </div>
+                    </div>
+                    <p><a href="#top">Return to top</a></p>
+               </div>
+          </div>
+     </div>
+     <hr>
+     <!-- END Contact Us -->
+
+     <!-- Footer -->
+     <div class="container">
+          <div class="row">
+               <div class="col-md-4">
+                    <address>
+                         <a href="http://www.vcu.edu/"><strong>Virginia Commonwealth University</strong></a> <br>
+                         <a href="http://www.soe.vcu.edu/"><strong>School of Education</strong></a> <br>
+                         <a href="http://partnership.vcu.edu/nci/"><strong>National Core Indicatiors in Virginia</strong></a> <br>
+                         <a href="http://partnership.vcu.edu/"><strong>Partnership for People with Disabilties</strong></a> <br>
+                         700 East Franklin Street <br>
+                         P.O. Box 843020 <br>
+                         1st Floor, Suite 140 <br>
+                         Richmond, VA 23219 <br>
+                         Phone: (804) 828-3876 <br>
+                         TDD Relay: 800-828-1120 <br>
+                         Updated:
+                              <script type="text/javascript">
+                                 document.write(document.lastModified.substring(0,
+                                 document.lastModified.indexOf(' ')));
+                              </script>
+                    </address>
+               </div>
+               <div class="col-md-4">
+                    <img src="img/PCPLogo.png" class="img-responsive center-block padding-20" alt="Person Centered Practices Logo">
+               </div>
+               <div class="col-md-4">
+                    <img src="img/BehavioralHealthLogo.png" class="img-responsive center-block padding-20" alt="Virginia Departments of Behavioral Health &amp; Development Services Logo">
+               </div>
+          </div>
+     </div>
+     <!-- END Footer -->
 
 
     <!-- Bootstrap core JavaScript
