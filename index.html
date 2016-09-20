@@ -28,10 +28,10 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll"  data-target="#navigation">
+  <body>
      <!-- Navigation -->
-     <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
+     <nav id="navigation" class="navbar navbar-default">
+          <div id="top" class="container-fluid">
               <!-- Site name and mobile menu -->
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false">
@@ -69,7 +69,7 @@
      <!-- END Navigation -->
 
      <!-- Header -->
-     <div id="top" class="container">
+     <div class="container">
           <div class="row">
                <div class="col-md-4">
                     <img src="img/nci_logo.jpg" class="img-responsive center-block" alt="Logo for the National Core Indicatiors in Virginia Program">
@@ -202,7 +202,7 @@
      <!-- END Resources -->
 
      <!-- Contact Us -->
-     <div id="contact" class="container">
+     <div id="contact" class="container padding-bottom">
           <div class="row">
                <div class="col-md-12">
                     <h1>Contact Us</h1>
@@ -246,41 +246,37 @@
                </div>
           </div>
      </div>
-     <hr>
      <!-- END Contact Us -->
 
-     <!-- Footer -->
-     <div class="container">
+     <!--Footer -->
+     <footer>
           <div class="row">
                <div class="col-md-4">
                     <address>
-                         <a href="http://www.vcu.edu/"><strong>Virginia Commonwealth University</strong></a> <br>
-                         <a href="http://www.soe.vcu.edu/"><strong>School of Education</strong></a> <br>
-                         <a href="http://partnership.vcu.edu/nci/"><strong>National Core Indicatiors in Virginia</strong></a> <br>
-                         <a href="http://partnership.vcu.edu/"><strong>Partnership for People with Disabilties</strong></a> <br>
+                         <a href="http://www.vcu.edu">Virginia Commonwealth University</a> <br>
+                         <a href="http://soe.vcu.edu">School of Education</a> <br>
+                         <a href="http://partnership.vcu.edu">Partnership for People with Disabilities</a> <br>
+                           National Core Indicators in Virginia <br>
                          700 East Franklin Street <br>
                          P.O. Box 843020 <br>
                          1st Floor, Suite 140 <br>
                          Richmond, VA 23219 <br>
-                         Phone: (804) 828-3876 <br>
-                         TDD Relay: 800-828-1120 <br>
-                         Updated:
-                              <script type="text/javascript">
-                                 document.write(document.lastModified.substring(0,
-                                 document.lastModified.indexOf(' ')));
-                              </script>
-                    </address>
+                         <strong>Phone: </strong>(804) 828-3876 <br>
+                         <strong>TDD Relay: </strong> 800-828-1120 <br>
+                         Updated: <script type="text/javascript">
+                            document.write(document.lastModified.substring(0, document.lastModified.indexOf(' ')));
+                            </script>
+                </address>
+          </div>
+               <div class="col-md-4">
+                    <img src="img/PCPLogo.png" class="img-responsive center-block" alt="Person Centered Practices Logo"/> <br> <h4 id="pcpLogo" class="text-center">Person Centered Practices</h4>
                </div>
                <div class="col-md-4">
-                    <img src="img/PCPLogo.png" class="img-responsive center-block padding-20" alt="Person Centered Practices Logo">
-               </div>
-               <div class="col-md-4">
-                    <img src="img/BehavioralHealthLogo.png" class="img-responsive center-block padding-20" alt="Virginia Departments of Behavioral Health &amp; Development Services Logo">
+                    <img id="dbhdsLogo" src="img/VPWLogo-White-trim.png" class="img-responsive center-block" alt="Virginia Department of Behavioral Health &amp; Developmental Services Logo">
                </div>
           </div>
-     </div>
+     </footer>
      <!-- END Footer -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
