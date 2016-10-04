@@ -4,17 +4,17 @@ Blue-Green: #128185
 */
 
 body {
-  margin-top: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+     margin-top: 60px;
+     font-family: Arial, Helvetica, sans-serif;
+/*     font-weight: bolder;*/
+     font-size: 18px;
 }
 
 h1, strong {
-  color: #128185;
-  font-weight: 600;
+     color: #128185;
+     font-weight: 600;
 }
 
-/*------------------------------------------*/
 
 /*
 CSS Box Shadow Effect from Paulund
@@ -22,14 +22,14 @@ Source: https://paulund.co.uk/learn-css-box-shadow
 and Box Shadow Generator: https://coveloping.com/tools/css-box-shadow-generator
 */
 
+
 #welcomeHeader, #aboutHeader, #reportsHeader, #resourcesHeader, #contactHeader {
-  background-color: #128185;
-  padding: 10px;
-  border: #F4B931 solid 4px;
-  border-radius: 10px;
-  color: #fff;
-  box-shadow: 0px 4px 7px 0px #99a3ad, 0px 0px 40px #eeeeee; 
-  font-weight: 600;
+    background-color: #128185;
+    padding: 10px;
+    border: #F4B931 solid 4px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 4px 7px 0px #99a3ad, 0px 0px 40px #eeeeee; 
 }
 
 /*------------------------------------------*/
@@ -46,181 +46,179 @@ a:hover {
 }
 
 hr {
-  border: 1px solid #128185;
+     border: 1px solid #128185;
 }
 
-/*------------------------------------------*/
+/*#top {
+     padding-top: 80px;
+}*/
 
 .navbar-brand>img {
-  display: block;
-  padding-top: 2px;
-  padding-right: 5px;
+    display: block;
+    padding-top: 2px;
+    padding-right: 5px;
 }
 
 .navbar {
-  border-radius: 0px;
-  color: #fff;
-  font-weight: bolder;
-  margin-top: 0px;
+     border-radius: 0px;
+     color: #fff;
+     font-weight: bolder;
+     margin-top: 0px;
 }
 
 .navbar-default {
-  background-color: #128185;
-  border-color: #176a6d;
-  margin-top: 0px;
+     background-color: #128185;
+     border-color: #176a6d;
+     margin-top: 0px;
 }
 
 .navbar-default .navbar-brand {
-  color: #fff;
-  font-weight: 600;
+    color: #fff;
+    font-weight: 600;
 }
 
 .navbar-default .navbar-brand:hover {
-  background-color: rgba(244, 185, 49, 0.75);
-  color: #fff;
+     background-color: rgba(244, 185, 49, 0.75);
+     color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
-  color: #fff;
-  background-color: rgba(244, 185, 49, 0.75);
+     color: #fff;
+     background-color: rgba(244, 185, 49, 0.75);
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
-  font-weight: 600;
+    color: #fff;
+    font-weight: 600;
+
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  background-color: rgba(244, 185, 49, 0.75);
-  color: #fff;
+     background-color: rgba(244, 185, 49, 0.75);
+    color: #fff;
 }
 
 .navbar-form>.form-control{
-  border-radius: 20px;
-  margin-right: 5px;
+     border-radius: 20px;
+     margin-right: 5px;
 }
 
 #mobile-button {
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #F4B931;
+     color: #fff;
+     font-size: 16px;
+     font-weight: bold;
+     background-color: #F4B931;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-toggle .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
 }
 
 .navbar-default .navbar-toggle {
-  background-color: #F4B931;
+    background-color: #F4B931;
 }
 
 .navbar-default .navbar-toggle:hover {
-  background-color: #128185;
+    background-color: #128185;
 }
 
 @media screen and (max-width: 768px) {
-  .navbar-default {
-    margin-top: 0px;
-  }
+     .navbar-default {
+          margin-top: 0px;
+     }
      
-  .navbar-default .container {
-    padding-bottom: 0px;
-    min-height: 100%;
-  }
+     .navbar-default .container {
+         padding-bottom: 0px;
+         min-height: 100%;
+     }
 
-  .navbar-default .navbar-nav>li>a {
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-  }
+     .navbar-default .navbar-nav>li>a {
+         color: #fff;
+         font-weight: 600;
+         font-size: 12px;
+     }
 
-  .navbar-form>#mobile-button {
-    margin: 15px 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #F4B931;
-  }
+     .navbar-form>#mobile-button {
+          margin: 15px 10px;
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold;
+          background-color: #F4B931;
+     }
+
+
 }
 
 @media screen and (max-width: 420px) {
-  body {
-    font-size: 16px;
-  }
-
-  .navbar-brand {
-    font-size: 16px;
-  }
+     body {
+          font-size: 16px;
+     }
+     
+     
+     .navbar-brand {
+          font-size: 16px;
+     }
 }
 
 @media screen and (max-width: 375px) {
-  .navbar-brand {
-    font-size: 14px;
-  }
+     .navbar-brand {
+          font-size: 14px;
+     }
 }
 
 @media screen and (max-width: 360px) {
-  .navbar-brand {
-    font-size: 14px;
-  }
+     .navbar-brand {
+          font-size: 14px;
+     }
 }
 
 @media screen and (max-width: 320px) {
-  .navbar-brand {
-      font-size: 12px;
-  }
+     .navbar-brand {
+          font-size: 12px;
+     }
 }
 
 .container .text-muted {
   margin: 20px 0;
 }
 
-/*------------------------------------------*/
-
 .panel-success {
-  border-color: #128185;
-  box-shadow: 0px 4px 7px 0px #99a3ad, 0px 0px 40px #eeeeee; 
+     border-color: #128185;
+     box-shadow: 0px 4px 7px 0px #99a3ad, 0px 0px 40px #eeeeee; 
 }
 
 .panel-success>.panel-heading {
-  color: #fff;
-  background-color: #128185;
-  border-color:  #128185;
-}
-
-.panel-heading {
-  background-color: #128185;
+    color: #fff;
+    background-color: #128185;
+    border-color:  #128185;
 }
 
 .panel-title {
-  color: #fff;
+     color: #fff;
 }
 
 .panel-body>a {
-  font-size: 16px;
-  font-weight: 600;
+     font-size: 16px;
+     font-weight: 600;
 }
 
 .report-summary, .resources-info {
-  padding: 15px;
+     padding: 15px;
 }
 
-/*------------------------------------------*/
-
 .padding-right {
-  padding-right: 15px;
+     padding-right: 15px;
 }
 
 .padding-20 {
-  padding: 20px;
+     padding: 20px;
 }
 
 .padding-bottom {
@@ -228,11 +226,9 @@ hr {
 }
 
 .return {
-  font-size: 20px;
-  font-weight: 600; 
+     font-size: 20px;
+     font-weight: 600; 
 }
-
-/*------------------------------------------*/
 
 footer {
   color: #fff;
